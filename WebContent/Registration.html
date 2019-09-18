@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+       <link rel="stylesheet" href="CSS/Registration.css">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="LogoutServlet">Logout</a>
+<section class="container">
+ <h4><i class="fa fa-user" aria-hidden="true"></i>&emsp;Employeee Registration</h4><br>
+   <span class="staralign">* Required Fields</span>
+<form action="EmployeeRegistrationServlet" method="post" id="form">
+ <div class="form-row">
+  <div class="form-group col">
+  <span class="color">*</span><label>Employee ID</label>
+    <input type="text" class="form-control" id=""  placeholder="Employee ID" name="EMP_ID">
+    </div>
+  <div class="form-group col">
+      <span class="color">*</span><label>Employee Name</label>
+    <input type="text" class="form-control" id="" placeholder="Employee Name" name="EMP_NAME">
+  </div>
+  <div class="form-group col">
+    <label >Mobile Number</label>
+    <input type="number" class="form-control" id="" placeholder="Mobile Number" name="MOBILE_NUMBER">
+   </div><br><br>
+  </div>
+ <div class="form-row">
+   <div class="form-group col">
+    <span class="color">*</span> <label >Email Address</label>
+    <input type="email" class="form-control" id=""  placeholder="Enter email" name="EMP_EMAIL">
+   </div>
+   <div class="form-group col">
+    <span class="color">*</span> <label >Date of Birth</label>
+    <input type="date" class="form-control" id=""  placeholder="Date of Birth" name="DOB">
+   </div>
+   <div class="form-group col"> 
+    <label >Gender</label>
+   <select class="form-control" name="GENDER">
+     <option>select Gender</option>
+     <option>Male</option>
+     <option>Female</option> 
+     </select>
+     </div>
+</div>
+<div class="form-row">
+ <div class="form-group col">
+   <label >PAN Number</label>
+    <input type="text" class="form-control" id=""  placeholder="PAN" name="PAN_NUMBER">
+   </div>
+   <div class="form-group col">
+   <label >Aadhar Number</label>
+    <input type="number" class="form-control" id=""  placeholder="Aadhar" name="ADHAR_NUMBER">
+   </div>
+   <div class="form-group col">
+     <span class="color">*</span><label>Bank Account Number</label>
+    <input type="number" class="form-control" id=""  placeholder="Account Number" name="BANK_ACNO">
+   </div>
+</div>
+
+<div class="form-row">
+ <div class="form-group col">
+     <span class="color">*</span><label >Date of Joining</label>
+    <input type="date" class="form-control" id=""  placeholder="Date of Joining" name="DOJ">
+   </div>
+ <div class="form-group col">
+     <span class="color">*</span> <label>Department</label>
+    <input type="text" class="form-control" id="" placeholder="Employee Department" name="DEPARTMENT">
+  </div>
+  
+  <div class="form-group col">
+     <span class="color">*</span><label >Designation</label>
+    <input type="text" class="form-control" id=""  placeholder="Designation" name="DESIGNATION">
+   </div>
+</div>
+  
+<div class="form-row">
+    <div class="form-group col">
+    <span class="color">*</span> <label>Salary</label>
+    <input type="number" class="form-control" id=""  placeholder="Salary" name="SALARY">
+   </div>
+   <div class="form-group col">
+   <label>Home Address</label>
+    <input type="text" class="form-control" id=""  placeholder="Address" name="EMP_ADDRESS">
+   </div>
+    <div class="form-group col">
+     <span class="color">*</span><label>Job Location</label>
+    <input type="text" class="form-control" id=""  placeholder="Job Location" name="JOB_LOCATION">
+   </div>   
+</div>
+<div class="form-row">
+<div class="form-row">
+   <div class="form-group col">
+    <span class="color">*</span> <label>Password</label>
+    <input type="password" class="form-control" id=""  placeholder="Password" name="PASSWORD">
+   </div>
+</div>
+</div>
+<center><button type="submit" class="btn btn-primary">Submit</button></center>
+</form>
+</section>
+</body>
+
+  <script src="javascript/Registration.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+</html>

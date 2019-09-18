@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+h1 {
+background-color:hsl(147, 50%, 47%);
+color: white;
+text-align: center;
+}
+body {font-family: Arial;}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}

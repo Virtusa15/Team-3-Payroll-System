@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+body{
+	margin-left: 31%;
+    margin-top: 10%;
+ 
+	
+}
+form{
+	width:40%;
+}
+#eiderror,#pwderror{
+	display:none;
+}
+#numbererror{
+	display:none;
+}
+.error
+{
+
+border-color:Red;
+border-style:solid;
+border-width:1px;
+}
